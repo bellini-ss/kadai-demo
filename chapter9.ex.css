@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 p {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
   color: white;
 }
@@ -34,9 +34,9 @@ height: auto;
   height: 300px;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-right: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
   position: relative;
-  
 }
 .box-image1{
   width: 280px;
@@ -97,17 +97,58 @@ height: auto;
   background-color: #aaaaaa;
 }
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
+  p{
+    font-size: 5px;
   }
-  box-list{
+  .header {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  .box-list{
     width: 100%;
     display: block;
   }
-  box{
+  .box{
      width: 90%;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 20px;
+     margin-top: 0px;
+     position: relative;
   }
-  footer{
+  .box-image1{
+    height: 150px;
+    width: 95%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+   margin: auto;
+  }
+  .box-image2{
+    height: 150px;
+    width: 95%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+   margin: auto;
+   
+  }
+  .box-image3{
+    height: 150px;
+    width: 95%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+   margin: auto;
+    
+  }
+  .footer{
     width: 100%;
+    height: 50px;
+    margin-top: 50px;
   }
 }
